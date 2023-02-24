@@ -1,0 +1,7 @@
+:root {
+  /* Add spme root colors to use on all the other pages  */
+  --black: black;
+  --white: white;
+  --grey: rgb(155, 155, 155);
+  --brown: rgb(117, 68, 68);
+}

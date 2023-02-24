@@ -1,0 +1,30 @@
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: var(--black);
+}
+
+.main>a {
+  height: 90vh;
+  background-color: var(--black);
+  color: var(--white);
+  border: var(--white) 5pt solid;
+  text-decoration: none;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.main>a:hover {
+  background-color: var(--white);
+  color: var(--black);
+}

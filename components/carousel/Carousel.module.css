@@ -1,0 +1,21 @@
+.main {
+    height: 90vh;
+    background-color: var(--black);
+    color: var(--white);
+    border: var(--white) 5pt solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main>img {
+    border: var(--white) 3pt solid;
+    border-radius: 99px;
+    padding: 2rem;
+}
+
+.main>img:hover {
+    background-color: var(--brown);
+}
